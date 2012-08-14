@@ -3,19 +3,22 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Javascript Calculator</title>
     <link rel="stylesheet" media="screen, print, handheld" type="text/css" href="calculator.css" />
+    <script type="text/javascript" src="../javascript/calculator.js"></script>
+    <script type="text/javascript" src="../lib/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="../javascript/jquery.calculator.js"></script>
 </head>
 <body>
-    <table class="calculator">
+<table class="calculator">
         <thead>
-            <tr>
+        <tr>
                 <td colspan="4">
-                    <input type="text" readonly="readonly" class="display" />
+                    <input id="display" type="text" readonly="readonly" class="display"/>
                 </td>
             </tr>
         </thead>
 
         <tbody>
-            <tr>
+        <tr>
                 <td>
                     <input type="button" value="CE" />
                 </td>
